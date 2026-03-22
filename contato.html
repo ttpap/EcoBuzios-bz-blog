@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato – Arte & Cultura Social</title>
+    <meta name="description" content="Entre em contato com o Arte & Cultura Social. Envie sugestões de pautas, projetos sociais ou torne-se um colunista.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">&#9670;</span>
+                    <h1>Arte & Cultura Social</h1>
+                    <p class="tagline">Projetos sociais transformando vidas através da arte</p>
+                </a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="colunistas.html">Colunistas</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Categorias</a>
+                        <ul class="dropdown">
+                            <li><a href="categoria.html?cat=projetos-sociais">Projetos Sociais</a></li>
+                            <li><a href="categoria.html?cat=artes-visuais">Artes Visuais</a></li>
+                            <li><a href="categoria.html?cat=musica">Música</a></li>
+                            <li><a href="categoria.html?cat=teatro-danca">Teatro & Dança</a></li>
+                            <li><a href="categoria.html?cat=educacao-cultural">Educação Cultural</a></li>
+                            <li><a href="categoria.html?cat=eventos">Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contato</h1>
+            <p>Envie sua mensagem, sugestão de pauta ou proposta de colaboração</p>
+        </div>
+    </section>
+
+    <!-- Contact Layout -->
+    <section>
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-form">
+                    <h2 style="font-family: 'Playfair Display', serif; font-size: 1.6rem; margin-bottom: 25px;">Envie sua Mensagem</h2>
+                    <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! Retornaremos em breve.');">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="pauta">Sugestão de Pauta</option>
+                                <option value="projeto">Divulgar um Projeto Social</option>
+                                <option value="colunista">Quero ser Colunista</option>
+                                <option value="parceria">Proposta de Parceria</option>
+                                <option value="evento">Divulgar um Evento</option>
+                                <option value="outro">Outro Assunto</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div>
+                    <div class="contact-info-card">
+                        <h3>Informações de Contato</h3>
+                        <p><strong>E-mail:</strong> contato@arteculturasocial.com.br</p>
+                        <p><strong>Redes Sociais:</strong> @arteculturasocial</p>
+                        <p><strong>Localização:</strong> Rio de Janeiro, RJ - Brasil</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <h3>Quer ser Colunista?</h3>
+                        <p>Se você é jornalista, artista, educador ou gestor cultural e deseja contribuir com textos para o nosso blog, envie uma mensagem com seu portfólio e áreas de interesse.</p>
+                        <p>Valorizamos a diversidade regional e temática, e estamos sempre em busca de novas vozes que enriqueçam nosso conteúdo.</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <h3>Divulgue seu Projeto</h3>
+                        <p>Seu projeto social utiliza a arte como ferramenta de transformação? Conte-nos sobre sua iniciativa! Publicamos matérias sobre projetos de todas as regiões do Brasil.</p>
+                        <p>Envie informações sobre o projeto, fotos e dados de contato para avaliação editorial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Arte & Cultura Social</h3>
+                    <p>Blog dedicado a divulgar e apoiar projetos sociais ligados à arte e cultura em todas as regiões do Brasil.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="colunistas.html">Colunistas</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li><a href="categoria.html?cat=projetos-sociais">Projetos Sociais</a></li>
+                        <li><a href="categoria.html?cat=artes-visuais">Artes Visuais</a></li>
+                        <li><a href="categoria.html?cat=musica">Música</a></li>
+                        <li><a href="categoria.html?cat=teatro-danca">Teatro & Dança</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arte & Cultura Social. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
