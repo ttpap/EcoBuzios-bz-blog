@@ -1,4 +1,4 @@
-// Arte & Cultura Social - Main JavaScript
+// EcoBuzios Blog - Main JavaScript
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
