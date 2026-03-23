@@ -94,17 +94,24 @@ img {
 
 .logo {
     display: inline-flex;
+    flex-direction: column;
     align-items: center;
-    gap: 18px;
+    gap: 6px;
     text-decoration: none;
 }
 
 .logo-svg-wrap {
-    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-svg-wrap svg {
+    height: 68px;
+    width: auto;
 }
 
 .logo-text-wrap {
-    text-align: left;
+    text-align: center;
 }
 
 .logo-wordmark {
