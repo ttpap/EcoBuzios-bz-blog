@@ -10,17 +10,17 @@
 }
 
 :root {
-    --color-primary: #c44e3f;
-    --color-primary-dark: #a03a2e;
-    --color-secondary: #2d6a7e;
-    --color-accent: #e8634a;
-    --color-text: #2c2c2c;
-    --color-text-light: #666;
-    --color-text-muted: #999;
-    --color-bg: #faf9f7;
-    --color-bg-alt: #f0eeeb;
+    --color-primary: #0d7c66;
+    --color-primary-dark: #095e4e;
+    --color-secondary: #1a9bba;
+    --color-accent: #27ae60;
+    --color-text: #1e3a2f;
+    --color-text-light: #4a6b5d;
+    --color-text-muted: #7a9b8e;
+    --color-bg: #f5faf7;
+    --color-bg-alt: #e8f4ec;
     --color-white: #fff;
-    --color-border: #e0ddd8;
+    --color-border: #c8ddd0;
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, sans-serif;
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
