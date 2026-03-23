@@ -100,36 +100,10 @@ img {
     text-decoration: none;
 }
 
-.logo-svg-wrap {
-    display: flex;
-    align-items: center;
-}
-
-.logo-svg-wrap svg {
-    height: 82px;
+.logo-img {
+    height: 120px;
     width: auto;
-}
-
-.logo-text-wrap {
-    text-align: center;
-}
-
-.logo-wordmark {
     display: block;
-    font-family: 'Nunito', 'Inter', -apple-system, sans-serif;
-    font-size: 2.6rem;
-    font-weight: 900;
-    letter-spacing: 1px;
-    line-height: 1;
-    text-transform: uppercase;
-}
-
-.logo-eco {
-    color: #1BADB8;
-}
-
-.logo-buzios {
-    color: #F5A623;
 }
 
 .tagline {
