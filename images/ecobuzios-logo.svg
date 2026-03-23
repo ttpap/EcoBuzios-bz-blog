@@ -1,0 +1,16 @@
+<svg viewBox="0 0 480 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Floating orange circle (lower-left) -->
+  <circle cx="82" cy="215" r="27" fill="#F5A623"/>
+  <!-- Child: orange head + teal pill body -->
+  <circle cx="175" cy="132" r="30" fill="#F5A623"/>
+  <rect x="160" y="166" width="30" height="64" rx="15" fill="#1BADB8"/>
+  <!-- Adult: orange head + teal body (arms UP, legs apart) -->
+  <circle cx="345" cy="52" r="40" fill="#F5A623"/>
+  <line x1="345" y1="158" x2="255" y2="90" stroke="#1BADB8" stroke-width="32" stroke-linecap="round"/>
+  <line x1="345" y1="158" x2="435" y2="90" stroke="#1BADB8" stroke-width="32" stroke-linecap="round"/>
+  <line x1="345" y1="158" x2="308" y2="278" stroke="#1BADB8" stroke-width="32" stroke-linecap="round"/>
+  <line x1="345" y1="158" x2="382" y2="278" stroke="#1BADB8" stroke-width="32" stroke-linecap="round"/>
+  <!-- Text: ECO in teal + BÚZIOS in orange -->
+  <text x="22" y="388" font-family="'Nunito', 'Inter', Arial, sans-serif" font-weight="900" font-size="105" fill="#1BADB8">ECO</text>
+  <text x="235" y="388" font-family="'Nunito', 'Inter', Arial, sans-serif" font-weight="900" font-size="105" fill="#F5A623">BÚZIOS</text>
+</svg>
