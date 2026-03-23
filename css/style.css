@@ -106,7 +106,7 @@ img {
 }
 
 .logo-svg-wrap svg {
-    height: 68px;
+    height: 82px;
     width: auto;
 }
 
@@ -116,11 +116,12 @@ img {
 
 .logo-wordmark {
     display: block;
-    font-family: 'Inter', -apple-system, sans-serif;
-    font-size: 2.4rem;
-    font-weight: 800;
-    letter-spacing: -1px;
+    font-family: 'Nunito', 'Inter', -apple-system, sans-serif;
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: 1px;
     line-height: 1;
+    text-transform: uppercase;
 }
 
 .logo-eco {
