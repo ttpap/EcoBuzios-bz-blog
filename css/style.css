@@ -10,17 +10,18 @@
 }
 
 :root {
-    --color-primary: #0d7c66;
-    --color-primary-dark: #095e4e;
-    --color-secondary: #1a9bba;
-    --color-accent: #27ae60;
-    --color-text: #1e3a2f;
-    --color-text-light: #4a6b5d;
-    --color-text-muted: #7a9b8e;
-    --color-bg: #f5faf7;
-    --color-bg-alt: #e8f4ec;
+    --color-primary: #1BADB8;
+    --color-primary-dark: #148a94;
+    --color-secondary: #F5A623;
+    --color-secondary-dark: #d4891a;
+    --color-accent: #1BADB8;
+    --color-text: #1a2e35;
+    --color-text-light: #4a6572;
+    --color-text-muted: #8aaab5;
+    --color-bg: #f7feff;
+    --color-bg-alt: #e6f7f9;
     --color-white: #fff;
-    --color-border: #c8ddd0;
+    --color-border: #b8dde2;
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, sans-serif;
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
@@ -92,30 +93,44 @@ img {
 }
 
 .logo {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    text-decoration: none;
 }
 
-.logo-icon {
-    font-size: 2rem;
-    color: var(--color-primary);
+.logo-svg-wrap {
+    flex-shrink: 0;
+}
+
+.logo-text-wrap {
+    text-align: left;
+}
+
+.logo-wordmark {
     display: block;
-    margin-bottom: 8px;
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1;
 }
 
-.logo h1 {
-    font-family: var(--font-heading);
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--color-text);
-    letter-spacing: -0.5px;
+.logo-eco {
+    color: #1BADB8;
+}
+
+.logo-buzios {
+    color: #F5A623;
 }
 
 .tagline {
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     color: var(--color-text-light);
-    margin-top: 5px;
+    margin-top: 4px;
     font-style: italic;
     font-family: var(--font-heading);
+    display: block;
 }
 
 /* Navigation */
